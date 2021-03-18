@@ -1,0 +1,126 @@
+/*Importing fonts from Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
+body{
+    text-align: center;
+    background-color: #9B4F08;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-image: url("../img/all-saints-wallpaper.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-header{
+    display: inline-block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-header ul{
+    display: flex;
+    align-items: center;
+}
+.container-header ul li{
+  width: 50%;
+}
+
+.container-header ul .li-left{
+    text-align: left;
+}
+
+.container-header ul .li-right{
+    text-align: right;
+}
+
+.container-header ul li img{
+    display: inline-block;
+}
+
+  .container-background{
+      width: 100%;
+      padding-bottom: 200px;
+      background-color: #fff;
+  }
+
+  .container{
+    width: 1000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card{
+      float: left;
+      width: 355px;
+      height: 430px;
+      margin: 20px 15px 5px -35px;
+      border: solid 2px #9B4F08;
+      border-radius: 20px;
+  }
+
+  .card-img{
+    width: 90%;
+    height: 375px;
+    margin: 5%;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-img img{
+    max-width: 100%;
+}
+
+.text p{
+    margin: -36px 15px 0 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2em;
+    text-align: justify;
+}
+
+h1{
+    margin: -30px 0 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: #EBAC10; 
+}
+
+.container-footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+}
+
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 300px;
+    color: #fff;
+}
+
+.item-search{
+    display: inline-block;
+}
+
+.item-no-search{
+    display: none;
+}
+
