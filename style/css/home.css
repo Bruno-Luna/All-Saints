@@ -17,7 +17,6 @@ header{
     background-size: 100%;
     background-repeat: no-repeat;
     text-align: center;
-    border: #ab5a0e 1px solid;
     padding-top: 20px;
 }
 
@@ -130,10 +129,15 @@ input[type="search"]::-webkit-search-cancel-button {
     color: #9B4F08;  
 }
 
+h2:hover{
+    color: #4C3400;
+    font-weight:inherit;
+}
+
 .container-footer{
-    width: 100%;
-    height: 100px;
     margin-top: 50px;
+    width: 100%;
+    height: 50px;
 }
 
 footer p{
